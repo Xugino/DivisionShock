@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/option_background" >
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/menu_version"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/version"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:contentDescription="4"
+        android:src="@drawable/exit" />
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="0"
+        android:src="@drawable/options_title" />
+
+     <ImageView
+        android:id="@+id/stitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/sound" />
+    
+    <ImageView
+        android:id="@+id/vtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stitle"
+        android:layout_below="@+id/stitle"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/vibration" />
+
+    <ImageView
+        android:id="@+id/soffbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vtitle"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/version"
+        android:contentDescription="1"
+        android:src="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/sonbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/stitle"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="1"
+        android:src="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/voffbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/vtitle"
+        android:layout_alignLeft="@+id/soffbtn"
+        android:contentDescription="2"
+        android:src="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/vonbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sonbtn"
+        android:layout_alignTop="@+id/vtitle"
+        android:contentDescription="2"
+        android:src="@drawable/empty" />
+
+</RelativeLayout>

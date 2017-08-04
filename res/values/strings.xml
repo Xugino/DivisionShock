@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DivisionShock</string>
+    <string name="menu_version">VERSION test0.2</string>
+    <string name="startbtn">新建存储</string>
+    <string name="continuebtn">续行存储</string>
+    <string name="optionbtn">底层设置</string>
+    <string name="exitbtn">释放存储</string>
+    <string name="testtext">————程序测试中————</string>
+    <string name="title_activity_main_game">MainGame</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_pause_menu">PauseMenuActivity</string>
+
+</resources>

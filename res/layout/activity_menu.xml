@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/menu_title"
+        android:contentDescription="0" />
+    
+    <ImageView
+        android:id="@+id/startbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/button1_add_x"
+        android:contentDescription="1" />
+
+    <ImageView
+        android:id="@+id/continuebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/startbtn"
+        android:layout_marginTop="15dp"
+        android:contentDescription="2"
+        android:src="@drawable/button2_add_x" />
+
+    <ImageView
+        android:id="@+id/optionbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/continuebtn"
+        android:layout_marginTop="15dp"
+        android:contentDescription="3"
+        android:src="@drawable/button3_add_x" />
+
+    <ImageView
+        android:id="@+id/exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/optionbtn"
+        android:layout_marginTop="15dp"
+        android:contentDescription="4"
+        android:src="@drawable/button4_add_x" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/menu_version"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</RelativeLayout>
